@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>NeutralinoJs</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div id="neutralinoapp">
+      <h1>About Neutralinojs</h1>
+      <p>
+        Neutralinojs is a lightweight cross-platform desktop app development framework.
+        <button onclick="Neutralino.window.create('/resources/about.html', {title: 'Another window'})">Another window</button>
+      </p>
+    </div>
+    <!-- Neutralino.js client. This file is gitignored, 
+        because `neu update` typically downloads it.
+        Avoid copy-pasting it. 
+        -->
+    <script src="js/neutralino.js"></script>
+    <!-- Your app's source files -->
+     <script src="js/about.js"></script>
+  </body>
+</html>
